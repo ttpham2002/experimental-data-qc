@@ -1,0 +1,20 @@
+{
+  "id_column": "sample_id",
+  "required_columns": [
+    "sample_id",
+    "condition",
+    "replicate",
+    "cell_count",
+    "fluorescence_intensity"
+  ],
+  "numeric_ranges": {
+    "replicate": {"min": 1, "max": 3},
+    "cell_count": {"min": 0, "max": 1000000},
+    "fluorescence_intensity": {"min": 0, "max": 5000}
+  },
+  "categorical_columns": ["condition"],
+  "group_column": "condition",
+  "expected_group_size": {"min": 3, "max": 20},
+  "outlier_columns": ["cell_count", "fluorescence_intensity"],
+  "outlier_iqr_multiplier": 1.5
+}

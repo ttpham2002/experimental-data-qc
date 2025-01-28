@@ -1,0 +1,25 @@
+sample_id,condition,replicate,cell_count,fluorescence_intensity,batch
+CTRL-01,Control,1,48210,1012,B1
+CTRL-02,Control,1,50120,1068,B1
+CTRL-03,Control,2,49330,990,B1
+CTRL-04,Control,2,47540,1035,B1
+CTRL-05,Control,3,51080,1102,B2
+CTRL-06,control,3,48990,1008,B2
+TRTA-01,Treatment A,1,52210,1540,B1
+TRTA-02,Treatment A,1,53100,1602,B1
+TRTA-03,Treatment A,2,51980,1498,B1
+TRTA-04,Treatment A,2,54020,1635,B1
+TRTA-05,Treatment A,3,52800,1582,B2
+TRTA-06,Treatment A,3,53510,1551,B2
+TRTB-01,Treatment B,1,47010,720,B1
+TRTB-02,Treatment B,1,46550,685,B1
+TRTB-03,Treatment B,2,48120,745,B1
+TRTB-04,Treatment B,2,45890,698,B1
+TRTB-05,Treatment B,3,47700,710,B2
+TRTB-06,Treatment B,3,46980,705,B2
+TRTB-06,Treatment B,3,46980,705,B2
+TRTB-08,Treatment B,4,47220,-15,B2
+TRTA-09,Treatment A,1,54050,12500,B2
+CTRL-10,Control,2,,1040,B2
+,Control,3,49500,1025,B2
+CTRL-12,Control,3,50020,,B2
